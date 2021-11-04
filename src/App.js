@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import UserList from "./pages/userList/UserList.jsx";
 import User from "./pages/user/User.jsx";
 import NewUser from "./pages/newUser/NewUser.jsx";
-
+import Updated from "./pages/updated/Updated.jsx";
 
 function App() {
   return (
@@ -26,6 +26,9 @@ function App() {
           </Route>
           <Route path="/newUser">
           <NewUser/>
+          </Route>
+          <Route path="/updated">
+          <Updated />
           </Route>
          
         </Switch>

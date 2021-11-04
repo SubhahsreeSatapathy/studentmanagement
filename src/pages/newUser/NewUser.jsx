@@ -1,4 +1,5 @@
 import './NewUser.css'
+import {Link} from "react-router-dom"
 
 export default function NewUser() {
     return (
@@ -44,7 +45,8 @@ export default function NewUser() {
                    </select>
                </div>
                <div className="newUserItem">
-                   <div className="newUserButton">Create</div>
+                   <Link to="/users"><div className="newUserButton">Create</div></Link>
+                   
                </div>
            </form>
         </div>

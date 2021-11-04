@@ -40,10 +40,10 @@ export const userData = [
 export const userRows = [
   {
     id: 1,
-    UserName: "Harry Potter",
+    UserName: "Somalin Das",
     avatar:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJfa758-9Zet25uR43OnWUDxPh_5ivrKWg4g&usqp=CAU",
-    email: "harry@gmail.com",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnuUH6UoJirybmPeg0QZk6p8ZxSIUclRikTQ&usqp=CAU",
+    email: "somalin@gmail.com",
     stature: "active",
     transaction: "5600/-",
   },
